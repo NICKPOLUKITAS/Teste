@@ -1,0 +1,38 @@
+body {
+    background-image: url("papper.jfif");
+    background-repeat: no-repeat; /* Evita repetição da imagem */
+    background-size: 1450px 850px; /* Ajusta a imagem para cobrir todo o fundo */
+
+}
+
+.navbar{
+    position: fixed;
+    width:100%;
+    transition: background-color 1s;
+
+  }
+
+  .rect{
+    width:100%;
+    height:100vh;
+  }
+  #green{
+    background-color:#559065;
+  }
+  #blue{
+    background-color:#7eb3a7;
+  }
+
+.mb-1 {
+  color: azure;
+}
+
+.texto{
+  width: 1800px;
+  height: 600px;
+  text-align: center;
+}
+
+.btn {
+  background: #559065;
+}
