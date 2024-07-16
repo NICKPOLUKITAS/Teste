@@ -1,0 +1,43 @@
+.trem {
+    background-image: url("papper2.jpg");
+    background-repeat: no-repeat; /* Evita repetição da imagem */
+    background-size: 1450px 850px; /* Ajusta a imagem para cobrir todo o fundo */
+}
+
+.testimonial-card .card-up {
+  height: 120px;
+  overflow: hidden;
+  border-top-left-radius: .25rem;
+  border-top-right-radius: .25rem;
+}
+
+.aqua-gradient {
+  background: linear-gradient(40deg, #2096ff, #05ffa3) !important;
+}
+
+.testimonial-card .avatar {
+  width: 120px;
+  margin-top: -60px;
+  overflow: hidden;
+  border: 5px solid #fff;
+  border-radius: 50%;
+}
+
+.jack {
+    border-radius: 100%; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 135px;
+    
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  padding: 10px;
+}
+
+
+
