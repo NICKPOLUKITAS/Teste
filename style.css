@@ -65,23 +65,10 @@ body {
 }
 
 /* Estilos para telas pequenas */
-@media (max-width: 768px) {
-    .nav-menu {
-        display: none;
-        flex-direction: column;
-        width: 100%;
-    }
-
-    .nav-menu.active {
-        display: flex;
-    }
-
-    .nav-item {
-        text-align: center;
-        margin: 0;
-    }
-
-    .menu-icon {
-        display: block;
-    }
+@media (max-width: 600px) {
+  .grid-container {
+    /* Exemplo de ajuste para uma coluna em telas pequenas */
+    display: block;
+  }
 }
+
