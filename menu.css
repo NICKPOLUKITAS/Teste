@@ -148,11 +148,3 @@ h1 {
   }
 }
 
-/* Estilos para telas grandes */
-@media (min-width: 1201px) {
-  .grid-container {
-    /* Exemplo de ajuste para três colunas em telas grandes */
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
