@@ -34,4 +34,13 @@ $(document).ready(function() {
 
   
 
+document.getElementById('openIframe').addEventListener('click', (event) => {
+    event.preventDefault(); // Previne o comportamento padrão do link
+    const iframeContainer = document.getElementById('iframeContainer');
+    const smallIframe = document.getElementById('smallIframe');
+    
+    smallIframe.src = "https://www.example.com"; // URL da página que você quer abrir
+    iframeContainer.style.display = 'block'; // Exibe o container do iframe
+});
+
 
