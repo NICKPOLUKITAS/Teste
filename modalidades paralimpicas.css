@@ -79,10 +79,10 @@ h1 {
 }
 
 #iframeContainer {
-    margin-top: 20px;
-    width: 80%;
+    margin-top: 7px;
+    width: 76px;
     max-width: 600px;
-    height: 400px;
+    height: 50px;
     display: none;
     border: 2px solid #ccc;
     border-radius: 10px;
