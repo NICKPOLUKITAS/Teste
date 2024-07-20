@@ -39,7 +39,7 @@ document.getElementById('openIframe').addEventListener('click', (event) => {
     const iframeContainer = document.getElementById('iframeContainer');
     const smallIframe = document.getElementById('smallIframe');
     
-    smallIframe.src = "https://www.example.com"; // URL da página que você quer abrir
+    smallIframe.src = "página.html"; // URL da página que você quer abrir
     iframeContainer.style.display = 'block'; // Exibe o container do iframe
 });
 
