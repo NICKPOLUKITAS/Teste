@@ -78,11 +78,11 @@ h1 {
     margin-top: 20px;
 }
 
-
-carousel-item {
+.carousel-item {
 
 height: 500px; /* Define a
-altura fixa para os itens do carrossel */ }
+altura fixa para os itens do carrossel */ 
+}
 
 .carousel-item img {
 height: 100%; /* Ajusta a
