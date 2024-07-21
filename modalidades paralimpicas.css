@@ -93,3 +93,7 @@ object-fit: cover; /* Garante
 que a imagem se ajuste sem distorção */
 
 }
+
+.oi {
+  width: 1000px;
+}
