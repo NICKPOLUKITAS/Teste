@@ -38,28 +38,36 @@ body {
 }
 
 @media only screen and (max-width: 600px){
-  .grid-container {background-color: rgb(34, 51, 45); font-size: 10px;}
+   background-image: url("papper3.jpg");                          background-repeat: no-repeat;}
+
+   font-size: 10px;}
   .item1 {color:brown;}
   h1 {font-size: 25px;}
   p , u {font-size:20px;}
 }
 
 @media only screen and (min-width: 600px){
+background-image: url("papper3.jpg");
+background-repeat: no-repeat;}
+
   .grid-container {background-color: rgb(182, 145, 212); font-size: 10px;}
   h1 {font-size: 30px;}
 }
 
 @media only screen and (max-width: 768px){
+background-image: url("papper3.jpg");
     .grid-container {background-color: rgb(169, 203, 117); font-size: 10px;}
     h1 {font-size: 25px;}
   }
 
 @media only screen and (min-width: 992px){
+background-image: url("papper3.jpg");
     .grid-container {background-color: rgb(111, 220, 226); font-size: 10px;}
     h1 {font-size: 25px;}
 }
 
 @media only screen and (min-width: 1200px){
+background-image: url("papper3.jpg");}
   .grid-container {background-color: rgb(133, 13, 181); font-size: 10px;}
   h1 {font-size: 25px;}
 }
