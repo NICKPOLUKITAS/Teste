@@ -99,9 +99,7 @@ que a imagem se ajuste sem distorção */
 }
 
 .sports {
-  width: 100px;
-  height: 100px;
-  background-color: red;
-  animation-name: example;
-  animation-duration: 4s;
+  width: 15px;
+  height: 30px;
+  
 }
