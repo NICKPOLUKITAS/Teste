@@ -180,5 +180,96 @@
   <img src="papper1.jpg" alt="esportes"
 </div>
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hexagon Grid</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background: #ddd;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .hex-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            width: 600px;
+            margin-top: 20px;
+        }
+
+        .hex {
+            position: relative;
+            width: 100px;
+            height: 57.74px;
+            margin: 28.87px 5px;
+            background: #6C7A89;
+            clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+            transition: transform 0.3s;
+        }
+
+        .hex:hover {
+            transform: scale(1.1);
+        }
+
+        .hex a {
+            display: block;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            line-height: 57.74px;
+            color: white;
+            text-decoration: none;
+        }
+
+        .section {
+            padding: 100px 20px;
+            width: 100%;
+            max-width: 800px;
+            text-align: center;
+            background: #fff;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="hex-grid">
+        <div class="hex"><a href="#ambassadors">Ambassadors</a></div>
+        <div class="hex"><a href="#shop">Shop</a></div>
+        <div class="hex"><a href="#adventures">Adventures</a></div>
+        <div class="hex"><a href="#materials-design">Materials & Design</a></div>
+        <div class="hex"><a href="#special-features">Special Features</a></div>
+    </div>
+
+    <div id="ambassadors" class="section">
+        <h2>Ambassadors</h2>
+        <p>Content for Ambassadors section.</p>
+    </div>
+    <div id="shop" class="section">
+        <h2>Shop</h2>
+        <p>Content for Shop section.</p>
+    </div>
+    <div id="adventures" class="section">
+        <h2>Adventures</h2>
+        <p>Content for Adventures section.</p>
+    </div>
+    <div id="materials-design" class="section">
+        <h2>Materials & Design</h2>
+        <p>Content for Materials & Design section.</p>
+    </div>
+    <div id="special-features" class="section">
+        <h2>Special Features</h2>
+        <p>Content for Special Features section.</p>
+    </div>
+</body>
+</html>
+
+
 </body>
 </html>
