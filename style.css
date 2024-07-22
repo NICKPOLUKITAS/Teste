@@ -51,7 +51,7 @@ body {
 
 @media only screen and (min-width: 600px){ 
 body { background-image: url("papper3.jpg");
-background-size: 1800px 3900px; 
+background-size: 2200px 3900px; 
 }      
 
   h1 {font-size: 30px;}
@@ -59,14 +59,14 @@ background-size: 1800px 3900px;
 
 @media only screen and (max-width: 768px){
  body { background-image: url("papper3.jpg");
-background-size: 1800px 2200px;
+background-size: 2200px 3900px;
 }      
     h1 {font-size: 25px;}
   }
 
 @media only screen and (min-width: 992px){
 body { background-image: url("papper3.jpg");
-background-size: 1800px 2200px;
+background-size: 2200px 3900px;
 
 }      
 
